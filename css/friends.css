@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&family=DM+Sans:opsz,wght@9..40,700;9..40,800&family=Poppins:wght@400;700;800&family=Righteous&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&family=DM+Sans:opsz,wght@9..40,700;9..40,800&family=Poppins:wght@700;800&family=Righteous&family=Rubik:wght@300;400&display=swap');
+@media only screen and (max-width: 600px) {
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #161616;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 30px 10px;
+}
+
+
+header{
+    display:flex;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width:100%;
+    height:  64px;
+    gap: 10px;
+  
+}
+
+.acts{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.acts p{
+    font-size: 0.9rem;
+    width:160px;
+}
+.stat_info div{
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2D2D2D;
+    height: 72px;
+    width: 100%;
+    border-radius: 12px;
+    
+}
+picture{
+    display: flex;
+    gap: 10px;
+}
+.skip{
+    width:50%;
+    color: #FFFFFF;
+    border:1px solid #ffffff;
+    height: 48px;
+    border-radius: 15px;
+    padding-top: 10px; 
+}
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        
+        margin-top: 20px;
+        gap: 14px;
+        
+    }
+
+.navigator{
+    position:fixed;
+    bottom: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 72px;
+    padding: 0px 20px 0px 20px;
+   
+}
+.navigator p{
+    display:flex;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+}

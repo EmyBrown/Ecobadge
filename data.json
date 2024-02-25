@@ -1,0 +1,40 @@
+[
+{
+    "title": "Recycle waste",
+    "image": "./images/recycle.png"
+}, 
+{
+    "title": "Save energy",
+    "image": "./images/bulb.png"
+}  
+, 
+{
+    "title": "Organic shop",
+    "image": "./images/pie.png"
+} 
+, 
+{
+    "title": "Use sustainable transport",
+    "image": "./images/car.png"
+} 
+, 
+{
+    "title": "Compete with friends",
+    "image": "./images/trophy.png"
+} 
+, 
+{
+    "title": "Plant trees",
+    "image": "./images/tree.png"
+} 
+, 
+{
+    "title": "Conserve water",
+    "image": "./images/water.png"
+} 
+, 
+{
+    "title": "Reduce plastic",
+    "image": "./images/bag.png"
+} 
+]
